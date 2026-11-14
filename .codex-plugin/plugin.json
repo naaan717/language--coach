@@ -1,0 +1,34 @@
+{
+  "name": "language-coach",
+  "version": "0.1.0",
+  "description": "Host-agnostic speaking coach. Practice stays in the target language; corrections and the wrap-up use the learner's explanation language. Optional Codex discovery file — other agents load skills/language-coach/SKILL.md and can ignore this manifest.",
+  "author": {
+    "name": "naaan717"
+  },
+  "license": "MIT",
+  "keywords": [
+    "language",
+    "speaking",
+    "coaching",
+    "skill",
+    "education"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Language Coach",
+    "shortDescription": "Spoken practice with selective correction, review, and shadowing.",
+    "longDescription": "A reusable speaking-coach skill. It holds a patient conversation in the learner's chosen language variant, corrects only what matters, saves vocabulary on request, and ends with a six-part review plus sentence-by-sentence shadowing. Real-time voice comes from the host app.",
+    "developerName": "naaan717",
+    "category": "Education",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "我们开始今天的口语练习。目标是美式英语。",
+      "Add this to my vocabulary.",
+      "今天就到这里。"
+    ],
+    "brandColor": "#1D4E89"
+  }
+}
